@@ -28,7 +28,7 @@ Constraints:
 ########################################################################################################  Solution  ##############################################################################################################################
 
 
-class Solution {
+````class Solution {
 public:
     int shortestSubarray(vector<int>& nums, int k) {
         int n = nums.size();
@@ -62,5 +62,6 @@ public:
         return minLength == INT_MAX ? -1 : minLength;
     }
 };
+````
 
   
